@@ -16,14 +16,28 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.first-bottom p {
+.happy {
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+}
+.happy p {
     width: 200px;
+    height: 100px;
+    background-color: orangered;
+    margin:  0 !important;
+    display: grid;
+    place-items: center;
 }
-.happy-hour {
-    background-color: #f2f2f2 !important;
+.images-cover {
+    position: relative;
+    color: #fff;
 }
-.happy-time{
-    background-color: orangered !important;
+.images-cover p {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 1.6rem;
 }
 .first-bottom:nth-child(1){
     width: 250px;
